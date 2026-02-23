@@ -1,0 +1,151 @@
+body {
+    background-color: #f7f3e5;
+    margin: 0;
+}
+
+
+
+/*  HEADER  */
+
+header{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.logo{
+
+    width: 80px;
+    height: 80px;
+    
+}
+
+.navegacion {
+
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+   
+    
+}
+
+.navegacion li{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navegacion li:hover{
+    color: #7f9c96;
+}
+
+
+
+/*  Hero    */
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+
+
+h1{
+    color: #7f9c96;
+    font-family: "Times New Roman", Garamond, serif;
+    text-align: center;
+    
+}
+
+.imagenHero{
+    width: 400px;
+    height: 400px;
+}
+
+/*  SEPARADOR   */
+
+ .secciones {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150vh;
+}
+
+
+/*  SECTION PRODUCTOS   */
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.producto {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    background-color: #E6DED3;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-comprar{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.info-comprar p{
+
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.imagen img{
+   width: 200px;
+    height: 250px;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+    border: 3px solid transparent;
+}
+
+
+
+.imagen img:hover {
+  transform: scale(1.05);
+  border-color: #7f9c96;
+ 
+} 
+
+/*  FOOTER  */
+
+footer ul {
+
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+footer hr {
+
+    margin-top: 20px;
+    width: 150vh;
+}
