@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="imagenes/icono.ico">
     <title>Hildegarda CN</title>
@@ -17,25 +19,33 @@
         <img src="imagenes/hero.png" class="logo">
         <nav>
             <ul class="navegacion">
-                <li href="">Inicio</li>
+                <li><a href="#inicio">Inicio</a></li>
                 <li href="">Sobre nosotros</li>
-                <li href="">Productos</li>
+                <li><a href="#productos">Productos</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>"El cuidado consciente no necesita ser perfecto.<br> Solo necesita comenzar"</h1>
-        <img src="imagenes/hero.png" class="imagenHero">
+    <section id="inicio" class="hero">
+        <video autoplay muted loop class="videoHero">
+            <source src="videos/heroHildegarda3.mp4" type="video/mp4">
+        </video>
+        <div class="heroDiv">
+            <h1>"El cuidado consciente no necesita ser perfecto.<br> Solo necesita comenzar"</h1>
+            <img src="imagenes/hero.png" class="imagenHero">
+        </div>
+
     </section>
     <hr class="secciones">
-    <section class="productos">
+    <section id="productos" class="productos">
         <div class="producto">
             <div class="imagen">
                 <img src="imagenes/desodoranteAxilas.jpeg">
             </div>
             <div class="info-comprar">
-                <p>Con ingredientes naturales que absorben el sudor y aceites escenciales, ayudando a eliminar las bacterias que producen el mal olor. Es ideal para pieles sensibles. Aromas disponibles: floral y herbal
+                <p>Con ingredientes naturales que absorben el sudor y aceites escenciales, ayudando a eliminar las
+                    bacterias que producen el mal olor. Es ideal para pieles sensibles. Aromas disponibles: floral y
+                    herbal
                 </p>
             </div>
         </div>
@@ -44,7 +54,8 @@
                 <img src="imagenes/cremaCorporal.jpeg">
             </div>
             <div class="info-comprar">
-                <p>Nuestra crema corporal se adapta a todas las necesidades de tu piel y de tu familia. Está enriquecida con aceites y mantecas qe hidratan sin dejar sensación grasa.</p>
+                <p>Nuestra crema corporal se adapta a todas las necesidades de tu piel y de tu familia. Está enriquecida
+                    con aceites y mantecas qe hidratan sin dejar sensación grasa.</p>
             </div>
         </div>
         <div class="producto">
@@ -52,7 +63,8 @@
                 <img src="imagenes/gelDeLino.jpeg">
             </div>
             <div class="info-comprar">
-                <p>Por su composición, elimina el frizz, aporta suavidad y brillo, es ideal como paso final en el método curly y para eliminar los baby hairs en cualquier peinado (pelitos de crecimiento).</p>
+                <p>Por su composición, elimina el frizz, aporta suavidad y brillo, es ideal como paso final en el método
+                    curly y para eliminar los baby hairs en cualquier peinado (pelitos de crecimiento).</p>
             </div>
         </div>
         <div class="producto">
@@ -60,7 +72,9 @@
                 <img src="imagenes/jabonLiquido.jpeg">
             </div>
             <div class="info-comprar">
-                <p>Es una verdadera caricia a la piel. Con ingredientes suaves y nutritivas más un ph equilibrado. Es apto para todo tipo de piel, especialmente para aquellas más sensibles que requiern un cuidado más delicado.</p>
+                <p>Es una verdadera caricia a la piel. Con ingredientes suaves y nutritivas más un ph equilibrado. Es
+                    apto para todo tipo de piel, especialmente para aquellas más sensibles que requiern un cuidado más
+                    delicado.</p>
             </div>
         </div>
         <div class="producto">
@@ -68,7 +82,10 @@
                 <img src="imagenes/shampooAcondicionador.jpeg">
             </div>
             <div class="info-comprar">
-                <p>Sabías que nuestros priductos capilares son 100% orgánicos y respetuosos con el medio ambiente? Ingredientes naturales, puros y pensados para cada tipo de cabello. Resultados reales desde el primer uso.<p>
+                <p>Sabías que nuestros priductos capilares son 100% orgánicos y respetuosos con el medio ambiente?
+                    Ingredientes naturales, puros y pensados para cada tipo de cabello. Resultados reales desde el
+                    primer uso.
+                <p>
             </div>
         </div>
     </section>
@@ -76,10 +93,13 @@
         <hr>
         <ul>
             <li><a href="https://wa.me/+5492914193994" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-            <li><a href="https://web.facebook.com/profile.php?id=61584647165429&locale=es_LA" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/accounts/login/?next=%2Fhildegardacn%2F&source=omni_redirect" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://web.facebook.com/profile.php?id=61584647165429&locale=es_LA" target="_blank"><i
+                        class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/accounts/login/?next=%2Fhildegardacn%2F&source=omni_redirect"
+                    target="_blank"><i class="fab fa-instagram"></i></a></li>
         </ul>
     </footer>
+    <script src="funciones.js" defer></script>
 </body>
 
 </html>
