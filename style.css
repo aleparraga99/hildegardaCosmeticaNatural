@@ -1,6 +1,7 @@
 body {
     background-color: #f7f3e5;
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -62,9 +63,11 @@ a{
     align-items: center;
     justify-content: space-around;
     padding-left: 40px;
-    margin-top: 20px;
     min-height: 100vh;         
-    overflow: hidden;          
+    overflow: hidden;    
+    width: 100%;      
+    height: auto
+    ;
 }
 
 .videoHero{
@@ -75,7 +78,8 @@ a{
     height: 100%;
     object-fit: cover;         
     z-index: -1;    
-    transform: rotate(180deg);           
+    transform: rotate(180deg);    
+    width: 100%;       
 }
 
 h1{
